@@ -1,0 +1,1 @@
+Design and implement a scalable microservices architecture using Java/Kotlin and leverage modern technologies like Kafka, Docker, Kubernetes, and AWS.
