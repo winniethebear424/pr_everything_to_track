@@ -7,8 +7,8 @@
 - with Lambda Function
 - an EC2 instance running a script triggered by a DynamoDB event
 
-![Screen Shot 2024-04-30 at 4.33.53 PM.png](..%2F..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fyk%2Fx0fhcdm11gg_0v5rktmtmd480000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_RUODnj%2FScreen%20Shot%202024-04-30%20at%204.33.53%20PM.png)
 
+![](/Users/wenwen/NEU/Career Boost/General Projects/pr_everything_to_track/small-full-stack-pro/public/Screen Shot 2024-04-30 at 4.38.54 PM.png)
 #### Summarize:
 - thinking about LAMP?
 - pros && cons for each
