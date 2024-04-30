@@ -7,7 +7,7 @@
 - with Lambda Function
 - an EC2 instance running a script triggered by a DynamoDB event
 
-
+<img width="1089" alt="Screen Shot 2024-04-30 at 4.38.54 PM" src="https://github.com/winniethebear424/pr_to_track/small-full-stack-pro/public/123126492/78698b05-750f-4ba8-bbab-491fbb3ef01a">
 ![](/Screen Shot 2024-04-30 at 4.38.54 PM.png)
 #### Summarize:
 - thinking about LAMP?
