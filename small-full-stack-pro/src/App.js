@@ -1,25 +1,47 @@
-import logo from './logo.svg';
+
+import React, {useState} from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+function App(){
+    const [textInput, setTextInput] = useState('');
+    const [fileInput, setFileInput] = useState(null);
 
+    const handleTextChange = (e) => {
+        setTextInput(e.target.value);
+    };
+    const handleFileChange = (e) => {
+        setFileInput(e.target.files[0]);
+    };
+
+    const handleSubmit = (e) => {
+        console.log('Text Input:', textInput);
+        console.log('File Input:', fileInput);
+    };
+
+    return (
+        <div className = 'App'>
+            <h1> Small Full Stack Project </h1>
+            <div>
+                <label htmlFor = 'textInput'> Text Input: </label>
+                <input
+                    type = 'text'
+                    id = 'textInput'
+                    value = {textInput}
+                    onChange = {handleTextChange}
+                />
+            </div>
+            <div>
+                <label htmlFor = 'fileInput'> File Input: </label>
+                <input
+                    type = 'file'
+                    id = 'fileInput'
+                    accept = '.txt, .pdf, .doc'
+                    onChange = {handleFileChange}
+                />
+                <span>{fileInput ? fileInput.name: 'No file chosen'}</span>
+            </div>
+            <button onClick = {handleSubmit}> Submit </button>
+        </div>
+    );
+}
 export default App;
