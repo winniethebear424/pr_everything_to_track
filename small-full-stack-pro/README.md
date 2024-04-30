@@ -8,7 +8,7 @@
 - an EC2 instance running a script triggered by a DynamoDB event
 
 
-![](/Users/wenwen/NEU/Career Boost/General Projects/pr_everything_to_track/small-full-stack-pro/public/Screen Shot 2024-04-30 at 4.38.54 PM.png)
+![](/Screen Shot 2024-04-30 at 4.38.54 PM.png)
 #### Summarize:
 - thinking about LAMP?
 - pros && cons for each
